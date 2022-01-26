@@ -13,15 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: Sandro's homepage
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+  This is a test homepage for GitHub Pages. It is used to play around with GitHub pages to build an academic homepage for CV and publications.
+twitter_username: spethso
+github_username: spethso
+minimal_mistakes_skin: "dark"
 search: true
 
 # Build settings
@@ -58,34 +56,28 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Sandro Speth"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    :  "Research assistant, PhD student, experienced tutor and lecturer at the University of Stuttgart, as well as Gold Microsoft Learn Student Ambassador, and co-founder of the Microsoft Campus Community and leader of its Baden-Württemberg Hub."
   links:
-    - label: "Website"
+    - label: "University Page"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://www.iste.uni-stuttgart.de/de/institut/team/Speth-00002/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/spethso"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/spethso"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/spethso"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/spethso"
 
 defaults:
   # _posts
