@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Sandro Speth"
-  avatar : "/assets/images/Speth.jpg"
+  avatar : "/assets/images/Speth.png"
   bio    :  "Research assistant and PhD student at the University of Stuttgart, Gold Microsoft Learn Student Ambassador, and co-founder of the Microsoft Campus Community and leader of its Baden-Württemberg Hub."
   links:
     - label: "University Page"
