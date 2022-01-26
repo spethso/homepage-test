@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is a test homepage for GitHub Pages. It is used to play around with GitHub pages to build an academic homepage for CV and publications.
 twitter_username: spethso
 github_username: spethso
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
