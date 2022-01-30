@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Sandro's homepage
-masthead: Sandro Speth' homepage
+masthead_title: Sandro Speth' homepage
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   This is a test homepage for GitHub Pages. It is used to play around with GitHub pages to build an academic homepage for CV and publications.
@@ -71,9 +71,6 @@ author:
     - label: "E-Mail"
       icon: "fas fa-envelope"
       url: "mailto:sandro.speth@iste.uni-stuttgart.de"
-    - label: "University Page"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.iste.uni-stuttgart.de/de/institut/team/Speth-00002/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/spethso"
@@ -89,6 +86,9 @@ author:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-link"
       url: "https://scholar.google.com/citations?user=Tyz30W4AAAAJ&hl=de&oi=ao"
+    - label: "University Page"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.iste.uni-stuttgart.de/de/institut/team/Speth-00002/"
     - label: "MLSA"
       icon: "fas fa-fw fa-link"
       url: "https://studentambassadors.microsoft.com/en-US/profile/218"
