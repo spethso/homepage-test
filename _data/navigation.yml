@@ -2,16 +2,12 @@ main:
   - title: "About"
     url: /about/
   - title: "Publications"
-    url: /publications/
+    url: "https://www.iste.uni-stuttgart.de/institute/team/Speth-00002/#accordion-0-child"
   - title: "Teaching"
     url: /teaching/
-    description: "Teaching and supervised students' theses"
+    description: "Teaching and Supervised Student Works"
   - title: "CV"
     url: "https://www.linkedin.com/in/sandro-speth/?locale=en_US"
     description: "Curriculum Vitae"
   - title: "Posts"
     url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
