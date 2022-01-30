@@ -1,9 +1,17 @@
 main:
+  - title: "About"
+    url: /about/
+  - title: "Publications"
+    url: /publications/
+  - title: "Teaching"
+    url: /teaching/
+    description: "Teaching and supervised students' theses"
+  - title: "CV"
+    url: "https://www.linkedin.com/in/sandro-speth/?locale=en_US"
+    description: "Curriculum Vitae"
   - title: "Posts"
     url: /posts/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "About"
-    url: /about/
