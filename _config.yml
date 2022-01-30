@@ -111,8 +111,9 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
+      permalink: "/posts/"
     values:
       layout: single
       author_profile: true
@@ -125,6 +126,7 @@ defaults:
   - scope:
       path: "_pages"
       type: pages
+      permalink: "/"
     values:
       layout: single
       author_profile: true
