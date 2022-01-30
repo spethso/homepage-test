@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Sandro's homepage
+masthead: Sandro Speth' homepage
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   This is a test homepage for GitHub Pages. It is used to play around with GitHub pages to build an academic homepage for CV and publications.
@@ -30,6 +31,11 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+breadcrumbs: true  # disabled by default
+
+twitter:
+  username: "spethso"
 
 include:
   - _pages
@@ -54,30 +60,53 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-archives
 
 author:
   name   : "Sandro Speth"
   avatar : "/assets/images/Speth.png"
   bio    :  "Research assistant and PhD student at the University of Stuttgart, Gold Microsoft Learn Student Ambassador, and co-founder of the Microsoft Campus Community and leader of its Baden-Württemberg Hub."
+  location: "Stuttgart, Germany"
   links:
+    - label: "E-Mail"
+      icon: "fas fa-envelope-square"
+      url: "mailto:sandro.speth@iste.uni-stuttgart.de"
     - label: "University Page"
       icon: "fas fa-fw fa-link"
       url: "https://www.iste.uni-stuttgart.de/de/institut/team/Speth-00002/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/spethso"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/sandro-speth/?locale=en_US"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/spethso"
+    - label: "YouTube"
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/c/SandroSpeth"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-link"
+      url: "https://scholar.google.com/citations?user=Tyz30W4AAAAJ&hl=de&oi=ao"
+    - label: "MLSA"
+      icon: "fas fa-fw fa-link"
+      url: "https://studentambassadors.microsoft.com/en-US/profile/218"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/spethso"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/sandro-speth/?locale=en_US"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/spethso"
+    - label: "YouTube"
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/c/SandroSpeth"
 
 defaults:
   # _posts
@@ -91,6 +120,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
