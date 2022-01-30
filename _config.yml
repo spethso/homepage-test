@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Sandro's homepage
-masthead_title: Sandro Speth' homepage
+masthead_title: SANDRO SPETH'S HOMEPAGE
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   This is a test homepage for GitHub Pages. It is used to play around with GitHub pages to build an academic homepage for CV and publications.
@@ -30,7 +30,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "Europe/Berlin" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 breadcrumbs: true  # disabled by default
 
@@ -67,6 +67,7 @@ author:
   avatar : "/assets/images/Speth.png"
   bio    :  "Research assistant and PhD student at the University of Stuttgart, Gold Microsoft Learn Student Ambassador, and co-founder of the Microsoft Campus Community and leader of its Baden-Württemberg Hub."
   location: "Stuttgart, Germany"
+  email: "sandro.speth@iste.uni-stuttgart.de"
   links:
     - label: "E-Mail"
       icon: "fas fa-envelope"
@@ -130,8 +131,18 @@ defaults:
       author_profile: true
 
 category_archive:
-  type: liquid
+  type: jekyll-archives
   path: /categories/
 tag_archive:
-  type: liquid
+  type: jekyll-archives
   path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
