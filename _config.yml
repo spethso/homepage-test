@@ -69,7 +69,7 @@ author:
   location: "Stuttgart, Germany"
   links:
     - label: "E-Mail"
-      icon: "fas fa-envelope-square"
+      icon: "fas fa-envelope"
       url: "mailto:sandro.speth@iste.uni-stuttgart.de"
     - label: "University Page"
       icon: "fas fa-fw fa-link"
