@@ -61,6 +61,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-archives
+  - jekyll-twitter-plugin
 
 author:
   name   : "Sandro Speth"
